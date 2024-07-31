@@ -1,0 +1,61 @@
+body {
+    color:white;
+    background:black;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.call {
+    background: rgb(11, 68, 142);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.call-text{
+    margin-right: 5%;
+
+}
+h1{
+    font-size: 33px
+}
+
+ 
+
+.category-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+ 
+.category {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+
+.category-videos img {
+opacity: 0.5;
+    height: 200px;
+
+}
+
+.category-videos img:hover{
+
+
+    opacity: 1.0;
+    border: 1px solid rgba(188, 188, 193, 0.701)
+}
+
+.category h2{
+    color:rgb(204, 188, 188)
+}
